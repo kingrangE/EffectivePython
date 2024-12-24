@@ -41,3 +41,11 @@
     6. Instance methods in classes `should use self`, as `the name of the first parameter`
     7. Class methods `should use cls`, which refers to the class as `the name of the first parameter`
         - Class methods can be accessed without creating an instance of the class (similar to static methods in other languages).
+
+### Expressions and Statements (refer to example_code3.py)
+- Guidelines
+    1. `Use inline negation` instead of negation of positive
+    2. `Don't check` for `empty containers or sequences`. Let empty values `be implicitly evaluated to false`
+        - The same thing goes for non-empty values
+    3. `Avoid single-line` if statement, for and while loops, and except compound statements. `Spread these over multiple lines` for clarity
+    4. If the expression gets too long, `use parantheses` instead of \
